@@ -9,8 +9,8 @@ const Contact = () => (
       <p style={introStyle}>
         {attributes.introduction}
       </p>
-
     </div>
   </Layout>
 );
+
 export default Contact;
