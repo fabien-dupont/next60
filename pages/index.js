@@ -4,7 +4,7 @@ const introStyle = {fontSize: 32};
 const Index = () => (
   <Layout>
     <div>
-      <h1>{attributes.title}</h1>
+      <h1 className="text-uppercase">{attributes.title}</h1>
       <p style={introStyle}>
         {attributes.introduction}
       </p>
