@@ -3,6 +3,6 @@
 
 * npm install --save react react-dom next frontmatter-markdown-loader unsplash-js
 
-![unsplash js api](https://github.com/unsplash/unsplash-js)
+[unsplash js api](https://github.com/unsplash/unsplash-js)
 
 ![preview](preview.png)
