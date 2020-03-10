@@ -1,12 +1,11 @@
-import { useRouter } from 'next/router';
 import Link from "next/link" ;
 
 const Navbar = (props) => {
   return (
   <nav className="navbar navbar-expand-lg ">
-    <div className="container ">
+    <div className="container-fluid">
       <div className="navbar-header">
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand text-uppercase" href="/">
           <h1>next60</h1>
         </a>
       </div>
