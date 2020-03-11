@@ -1,7 +1,7 @@
 # next60
  nextjs web app created by Fabien Dupont @theStudio60 
 
-* npm install --save react react-dom next frontmatter-markdown-loader unsplash-js
+* npm install --save react react-dom next frontmatter-markdown-loader unsplash-js axios jquery
 
 [unsplash js api](https://github.com/unsplash/unsplash-js)
 
