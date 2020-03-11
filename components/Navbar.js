@@ -1,5 +1,4 @@
 import Link from "next/link" ;
-
 const Navbar = (props) => {
   return (
   <nav className="navbar navbar-expand-lg ">
@@ -8,7 +7,7 @@ const Navbar = (props) => {
         <a className="navbar-brand text-uppercase" href="/">
           <h1>next60</h1>
         </a>
-      </div>
+      </div> 
       <ul className="nav navbar-nav flex-row">
         <li className="m-auto p-2">
           <Link href="/"><a>Home</a></Link>
