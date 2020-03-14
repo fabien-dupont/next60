@@ -1,41 +1,29 @@
-import Layout from '../components/Layout'
+import Header from '../components/Header'
 import { attributes, html } from '../content/index.md'
 const imgURL = "https://source.unsplash.com/random";
 
-const introStyle = {fontSize: 32};
-const Index = () => (
-  <Layout>
-    <div className="container-fluid" >
-      <div className = "row flex-row ">
-        <div id="zone_api_result"  className="p-4 ml-auto mr-0">
-           
-            <img src={imgURL} height={320} /> 
-        </div>  
-        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2 mr-auto ml-2">
-        <h1 className="text-uppercase">{attributes.title}</h1>
-          
-          <p style={introStyle}>
+const imgStyle = {display: "contain",position:"relative"/*,minHeight:480*/};
+const sectionStyle = {};
+const paragraphStyle = {fontSize: 24,lineHeight:2};
+
+const Index = () => (<>
+  <Header/>
+  <section className="section w-100 h-100 m-0 p-0" style={sectionStyle}>
+    <div className="container-fluid m-0 p-0" >
+      <div className = "row m-0 p-0">
+        <div id="zone_api_result"  className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 m-0 p-0">
+          <img className="p-0 m-0" src={imgURL} width={"100%"} style={imgStyle}/> 
+        </div>        
+        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-8 col-xl-10 m-0 p-4">
+          <h1 className="text-uppercase">{attributes.title}</h1>
+          <p className="text-uppercase text-strong" style={paragraphStyle}>
             {attributes.introduction}
             <a href={attributes.link_url_01} >{attributes.link_name_01}</a>
           </p>
         </div>
-       
-      
-      <style jsx>
-      {`
-        img
-        {
-          maxWidth:320px;
-          
-          display:cover;
 
-        }
-      `}
-      
-      </style>
       </div>
-
-    </div>
-  </Layout>
-);
+    </div>        
+  </section>
+</>);
 export default Index;
