@@ -1,7 +1,7 @@
 import Link from "next/link" ;
 import Navheader from "./Navheader" ;
 const Navbar = () =>   (
-  <nav className="navbar navbar-expand-lg ">
+  <nav className="navbar navbar-expand-lg fixed-top bg-white">
     <div className="container-fluid">
       <Navheader/>
       
