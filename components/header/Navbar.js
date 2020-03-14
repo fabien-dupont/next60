@@ -1,7 +1,6 @@
 import Link from "next/link" ;
 import Navheader from "./Navheader" ;
-const Navbar = (props) => {
-  return (
+const Navbar = () =>   (
   <nav className="navbar navbar-expand-lg ">
     <div className="container-fluid">
       <Navheader/>
@@ -20,6 +19,6 @@ const Navbar = (props) => {
     </div>
   </nav>
   );
-};
+ 
 
 export default Navbar;
