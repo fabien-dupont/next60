@@ -1,7 +1,6 @@
 import Link from "next/link" ;
 
-const Navlist = (props) => {
-  return (
+const Navlist = ( ) =>  (
        <ul className="nav navbar-nav flex-row">
         <li className="m-auto p-2">
           <Link href="/"><a>Home</a></Link>
@@ -14,6 +13,6 @@ const Navlist = (props) => {
         </li>
       </ul>
   );
-};
+ 
 
 export default Navlist;
