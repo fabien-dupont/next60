@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.19.2",
     "frontmatter-markdown-loader": "^3.2.1",
     "jquery": "^3.4.1",
     "next": "^9.3.0",
