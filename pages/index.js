@@ -2,7 +2,7 @@ import Header from '../components/Header'
 import { attributes, html } from '../content/index.md'
 const imgURL = "https://source.unsplash.com/random";
 
-const imgStyle = {display: "contain",position:"relative"/*,minHeight:480*/};
+const imgStyle = {display: "contain",position:"relative" };
 const sectionStyle = {};
 const paragraphStyle = {fontSize: 24,lineHeight:2};
 
