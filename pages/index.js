@@ -1,8 +1,7 @@
 import Header from '../components/Header'
 import Section from '../components/Section'
 import SplashDiv from "./homepage_Components/SplashDiv"
-import SlideUpDiv from './homepage_Components/SlideUpDiv'
-
+import TextDiv from './homepage_Components/TextDiv'
 import { attributes, html } from '../content/index.md' 
 
 const paragraphStyle = {fontSize: 24,lineHeight:2}; 
@@ -11,13 +10,13 @@ const Index = () => (<>
   <Section>
     <SplashDiv/> 
     
-    <SlideUpDiv>
+    <TextDiv>
       <h1 className="text-uppercase">{attributes.title}</h1>
       <p className="text-uppercase text-strong" style={paragraphStyle}>
         {attributes.introduction}
         <a href={attributes.link_url_01} >{attributes.link_name_01}</a>
       </p>
-    </SlideUpDiv>
+    </TextDiv>
   </Section>
 </>);
 
