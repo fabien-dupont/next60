@@ -8,4 +8,5 @@ const Section = (props) => (<>
       </div>
     </div>        
   </section>
-</>); export default Section;
+</>);
+export default Section;
