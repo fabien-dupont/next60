@@ -1,7 +1,7 @@
 const splashDivContainer = { position:"absolute",zIndex:10,overflowY:"hidden"}
 const imgURL = "https://source.unsplash.com/random";
 const imgAlt = "Unsplash";
-const imgStyle = {display: "cover",position:"fixed",bottom:0,minWidth:360,width:"100%"};
+const imgStyle = {display: "cover",position:"fixed",top:64,/*width:"100%",*/height:"100%"/*,minHeight:640*/};
 
 const UnsplashDiv = () => (<>
   <div id="SplashDiv"  className="w-100 m-0 p-0" style={splashDivContainer}>
