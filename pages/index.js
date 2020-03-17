@@ -12,8 +12,8 @@ const Index = () => (<>
     <TextDiv>
       <h1 className="text-uppercase">{attributes.title}</h1>
       <p className="text-uppercase text-strong" style={paragraphStyle}>
-        {attributes.introduction} - 
-        <a href={attributes.link_url_01}>
+        {attributes.introduction}
+        <a className="btn btn-sm" href={attributes.link_url_01}>
           {attributes.link_name_01}
         </a>
       </p>
