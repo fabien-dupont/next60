@@ -1,6 +1,6 @@
 const fs = require('fs')
 const blogPostsFolder = './content/blogPosts'
-
+//
 const getPathsForPosts = () =>
   fs.readdirSync(blogPostsFolder).reduce((acc, blogName) => {
     const trimmedName = blogName.substring(0, blogName.length - 3)
